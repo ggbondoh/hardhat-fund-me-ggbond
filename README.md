@@ -11,3 +11,17 @@ REPORT_GAS=true npx hardhat test
 npx hardhat node
 npx hardhat ignition deploy ./ignition/modules/Lock.js
 ```
+
+
+* #### 测试
+
+    * 本地-单元测试
+
+
+yarn hardhat test
+
+yarn hardhat test --grep "keyword"
+测试网-staging
+
+
+yarn hardhat test --network sepoila
